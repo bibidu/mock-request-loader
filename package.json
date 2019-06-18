@@ -1,0 +1,33 @@
+{
+  "name": "mock-request-loader",
+  "version": "0.0.6",
+  "description": "a webpack loader can merge mock data and request api smoothly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "node ./deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duxianzhang/mock-request-loader.git"
+  },
+  "keywords": [
+    "mock",
+    "request",
+    "loader"
+  ],
+  "author": "duxianzhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duxianzhang/mock-request-loader/issues"
+  },
+  "homepage": "https://github.com/duxianzhang/mock-request-loader#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-types": "^6.26.0",
+    "loader-utils": "^1.2.3"
+  },
+  "devDependencies": {
+    "child_process": "^1.0.2"
+  }
+}
