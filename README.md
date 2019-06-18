@@ -31,7 +31,7 @@ $ npm install mock-request-loader --save-dev
   }
 
 ```
-### 配置webpack loader并开启mock
+### 配置webpack loader并开启mock(req文件使用到某些js特性需通过babel-loader进行后续编译)
 ```
 
 module: {
